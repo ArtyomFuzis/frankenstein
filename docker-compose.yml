@@ -1,10 +1,9 @@
 services:
   frontend:
     build:
-      context: /frontend/
+      context: frontend/
       dockerfile: Dockerfile
     image: frontend
     restart: always
     ports: 
       - 8080:8080
-    
